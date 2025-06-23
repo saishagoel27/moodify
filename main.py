@@ -2,7 +2,7 @@ import streamlit as st
 from config import AzureConfig
 from azure_service import AzureTextAnalyzer
 from emotion_analyzer import EmotionAnalyzer
-from recommendations import RecommendationEngine
+from recommend import RecommendationEngine
 import logging
 
 # Configure logging
