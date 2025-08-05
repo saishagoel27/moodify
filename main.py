@@ -91,7 +91,7 @@ def main():
         )
     
     with col2:
-        st.subheader("🎯 Quick Actions")
+        st.subheader(" Quick Actions")
         analyze_button = st.button("🔍 Analyze Mood", type="primary", use_container_width=True)
         
         if st.button("🎲 Random Recommendation", use_container_width=True):
@@ -134,7 +134,7 @@ def display_results(analysis_results, primary_emotion, recommendation_type,
     # Primary emotion and recommendation
     st.markdown(f"""
     <div class="analysis-card">
-        <h2>🎯 Detected Emotion: {primary_emotion.upper()}</h2>
+        <h2> Detected Emotion: {primary_emotion.upper()}</h2>
         <p>Based on advanced Azure AI analysis</p>
     </div>
     """, unsafe_allow_html=True)
