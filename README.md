@@ -23,7 +23,7 @@ Try out the app : https://moooodify.streamlit.app/
 
 ### **Personalized Recommendations**
 Based on your detected emotion, get tailored suggestions for:
-- **🎵 Music Playlists**: Curated Spotify playlists to match or improve your mood
+- **🎵 Music Suggestions**: Music recommendations to improve your mood
 - **📚 Inspirational Quotes**: Motivational and relevant quotes
 - **🏃 Activities**: Suggested actions to help process or enhance your emotional state
 
