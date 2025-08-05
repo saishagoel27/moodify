@@ -4,6 +4,8 @@
 
 Moodify is an intelligent mood analysis application that uses Microsoft Azure's AI Language Service to analyze text input and provide personalized recommendations based on detected emotions. Whether you're journaling, seeking mood insights, or looking for tailored suggestions, Moodify helps you understand and respond to your emotional state.
 
+Try out the app : https://moooodify.streamlit.app/
+
 
 ## ✨ Features
 
