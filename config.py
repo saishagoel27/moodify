@@ -35,7 +35,7 @@ class AzureConfig:
                os.getenv("AZURE_KEY") or 
                os.getenv("LANGUAGE_KEY"))
         
-        # Better error messages for debugging
+        # error messages for debugging
         if not endpoint:
             print("ERROR: Azure endpoint not found!")
             print("Make sure your .env file has one of these:")
@@ -67,7 +67,7 @@ class AzureConfig:
                 credential=AzureKeyCredential(self.key)
             )
             
-            # Try a simple operation
+            # simple operation
             test_result = client.detect_language(documents=["test connection"])
             print("✅ Azure connection test successful!")
             return True
