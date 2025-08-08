@@ -81,11 +81,10 @@ class EmotionAnalyzer:
         elif detected_emotion in ['sadness', 'anger', 'fear', 'disgust']:
             return sentiment_scores.get('negative', 0.0)
         elif detected_emotion == 'surprise':
-            # Surprise could be positive or negative, return the higher non-neutral score
             pos_score = sentiment_scores.get('positive', 0.0)
             neg_score = sentiment_scores.get('negative', 0.0)
             return max(pos_score, neg_score)
-        else:  # neutral or unknown
+        else:  
             return sentiment_scores.get('neutral', 0.0)
     
     @staticmethod
