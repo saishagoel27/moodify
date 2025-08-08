@@ -18,7 +18,7 @@ def analyze_sentiment(text: str):
     result = client.analyze_sentiment(documents=docs)[0]
     return result.sentiment, result.confidence_scores
 
-# Main function to run the sentiment analysis
+# Main function to run the app
 if __name__ == "__main__":
     text = input("How are you feeling? ")
     sentiment, scores = analyze_sentiment(text)
