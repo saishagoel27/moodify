@@ -173,7 +173,7 @@ class RecommendationEngine:
         """Get a random recommendation for the given emotion and type"""
         emotion = emotion.lower()
         
-        # Handle edge cases
+        # for handling edge cases
         if not emotion or not rec_type:
             return "Please specify both emotion and recommendation type"
         
